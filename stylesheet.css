@@ -1,0 +1,314 @@
+body {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   scroll-behavior: smooth;
+}
+
+div {
+   box-sizing: border-box;
+}
+
+/* General things */
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #F6931D;
+}
+
+p {
+   font-size: .9em;
+   line-height: 1.9em;
+   color: #404042;
+   font-weight: 300;
+}
+
+h1 {
+   font-size: 3em;
+   color: #525252;
+   line-height: 1.2em;
+   margin: 0;
+}
+
+h2 {
+   font-size: 1.7em;
+   color: #7B7B7B;
+   line-height: 1.2em;
+   margin: 0;
+}
+
+h3 {
+   color: white;
+   text-align: center;
+   font-size: 1.3em;
+   text-transform: uppercase;
+   letter-spacing: .15em;
+   font-weight: 300;
+   line-height: 0;
+   margin: 0;
+}
+
+h4 {
+   color: #525252;
+   font-size: 2em;
+   text-align: center;
+}
+
+/* Menu */
+.icon {
+   position: fixed;
+   margin-right: 40px;
+   right: 0px;
+   margin-top: 30px;
+   font-size: 23px;
+   color: black;
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   background-color: white;
+   text-align: center;
+   padding: 12px;
+   display: block;
+}
+
+.icon i {
+   line-height: 0;
+   text-align: center;
+   vertical-align: middle;
+   margin-bottom: 3px;
+}
+
+#menulist {
+   position: fixed;
+   margin-right: 40px;
+   margin-top: 100px;
+   border-radius: 30px;
+   background-color: white;
+   text-align: center;
+   width: 200px;
+   right: 0;
+   display: none;
+   padding: 20px 40px;
+}
+
+#menulist ul {
+   text-align: center;
+   padding: 0;
+}
+
+#menulist ul li {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   font-size: 1.2em;
+   font-weight: 500;
+   padding: 0;
+   color: #606060;
+   line-height: 3em;
+   text-transform: uppercase;
+}
+
+#menulist span {
+   color: orange;
+   display: none;
+}
+
+#menulist a:hover li {
+   color: orange;
+}
+
+/* Landing Page CSS */
+.landing {
+   width: 100vw;
+   height: 90vh;
+   background-image: url("assets/machine.png");
+   background-size: cover;
+}
+
+.logo {
+   margin: 12vh auto 10vh auto;
+   width: 100%;
+   display: inline-block;
+   right: 0;
+   left: 0;
+   text-align: center;
+}
+
+.logo img {
+   margin: auto;
+   height: 30vh;
+   display: inline-block;
+}
+
+.landingparagraph {
+   width: 100%;
+   max-width: 600px;
+   margin: auto;
+   padding: 0 30px;
+   text-align: center;
+}
+
+.landingparagraph p {
+   letter-spacing: .05em;
+}
+
+/* Scroll arrow */
+.scroller {
+   text-align: center;
+   margin: 0 auto;
+   width: 100%;
+   display: inline-block;
+}
+
+.scroller a {
+   display: inline-block;
+   position: relative;
+   font-size: 5vh;
+   color: #F6931D;
+   margin-top: 2vh;
+}
+
+/* Projects */
+.project {
+   width: 100vw;
+   height: 60vh;
+   padding: 10vh 10vw;
+}
+
+.button {
+   display: inline-block;
+   padding: 12px 30px 10px 30px;
+   border: solid grey 2px;
+   color: grey;
+   margin-top: 10vh;
+}
+
+.button:hover {
+   background-color: grey;
+   color: white;
+}
+
+.button p {
+   line-height: 0;
+   color: inherit;
+   letter-spacing: .15em;
+   text-transform: uppercase;
+}
+
+.right {
+   right: 0;
+   text-align: right;
+}
+
+.right h1, .right h2, .right .button {
+   color: white;
+   border-color: white;
+}
+
+.right .button:hover {
+   background-color: white;
+   color: grey;
+   border-color: white;
+}
+
+#skis {
+   background-image: url("assets/Hi5Skiis.png");
+   background-size: contain;
+   background-position: bottom right;
+   background-repeat: no-repeat;
+}
+
+#tent {
+   background-image: url("assets/expeditiontent.png");
+   background-size: cover;
+   background-position: bottom;
+}
+
+#duffle {
+   background-image: url("assets/duffle.png");
+   background-size: contain;
+   background-position: center right;
+   background-repeat: no-repeat;
+}
+
+.moreprojects {
+   height: 200px;
+   width: 100%;
+   padding-top: 100px;
+   background-image: url("assets/seemore.png");
+   vertical-align: middle;
+}
+
+.moreprojects a:hover {
+   text-decoration: underline;
+   color: white;
+}
+
+/* Partner section */
+.partners {
+   width: 100%;
+   padding: 50px;
+   background-color: #e6e6e6;
+}
+
+.partners h1 {
+   text-align: center;
+   margin: 30px 0 40px 0;
+}
+
+.partners img {
+   width: 65%;
+   margin: 0 auto;
+   display: block;
+}
+
+/* Footer Style */
+
+.questions {
+   padding: 50px;
+   width: 100%;
+   background-image: url("assets/seemore.png");
+   background-size: cover;
+   text-align: center;
+}
+
+.questions .button {
+   margin: 30px 15px;
+}
+
+.questions h1, .question .button p {
+   color: white;
+   border-color: white;
+}
+
+.bottmenu {
+   height: 100px;
+   background-color: #222222;
+   padding-top: 37px;
+}
+
+ul {
+   color: white;
+   display: inline;
+   margin:0;
+}
+
+.bottmenu li {
+   display: inline;
+   color: #838383;
+   font-size: .7em;
+   margin-right: 50px;
+}
+
+/* Mobile Style Changes */
+.content-mobile .project {
+   height: 100vh;
+}
+
+.content-mobile p {
+   font-size: .8em;
+   line-height: 1.5em;
+   color: #404042;
+}
