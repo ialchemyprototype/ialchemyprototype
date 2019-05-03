@@ -1,0 +1,186 @@
+body {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   scroll-behavior: smooth;
+}
+
+div {
+   box-sizing: border-box;
+}
+
+/* General things */
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #F6931D;
+}
+
+p {
+   font-size: .9em;
+   line-height: 1.9em;
+   color: #404042;
+   font-weight: 300;
+}
+
+h1 {
+   font-size: 3em;
+   color: #525252;
+   line-height: 1.2em;
+   margin: 0;
+}
+
+h2 {
+   font-size: 1.7em;
+   color: #7B7B7B;
+   line-height: 1.2em;
+   margin: 0;
+}
+
+h3 {
+   color: white;
+   text-align: center;
+   font-size: 1.3em;
+   text-transform: uppercase;
+   letter-spacing: .15em;
+   font-weight: 300;
+   line-height: 0;
+   margin: 0;
+}
+
+h4 {
+   color: #525252;
+   font-size: 2em;
+   text-align: center;
+}
+
+/* Menu */
+.icon {
+   position: fixed;
+   margin-right: 40px;
+   right: 0px;
+   margin-top: 30px;
+   font-size: 23px;
+   color: black;
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   background-color: white;
+   text-align: center;
+   padding: 12px;
+   display: block;
+}
+
+.icon i {
+   line-height: 0;
+   text-align: center;
+   vertical-align: middle;
+   margin-bottom: 3px;
+}
+
+#menulist {
+   position: fixed;
+   margin-right: 40px;
+   margin-top: 100px;
+   border-radius: 30px;
+   background-color: white;
+   text-align: center;
+   width: 200px;
+   right: 0;
+   display: none;
+   padding: 20px 40px;
+}
+
+#menulist ul {
+   text-align: center;
+   padding: 0;
+}
+
+#menulist ul li {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   font-size: 1.2em;
+   font-weight: 500;
+   padding: 0;
+   color: #606060;
+   line-height: 3em;
+   text-transform: uppercase;
+}
+
+#menulist span {
+   color: orange;
+   display: none;
+}
+
+#menulist a:hover li {
+   color: orange;
+}
+
+/* Header Style */
+.header {
+   width: 100%;
+   background-image: url("../assets/machine.png");
+   background-size: cover;
+   background-position: middle center;
+   padding: 0;
+   overflow: auto;
+}
+
+.logo {
+   margin: 8vh auto 6vh auto;
+   width: 100%;
+   display: inline-block;
+   right: 0;
+   left: 0;
+   text-align: center;
+}
+
+.logo img {
+   margin: auto;
+   height: 12vh;
+   display: inline-block;
+}
+
+.header h1 {
+   margin: 50px;
+   text-align: center;
+   display: block;
+}
+
+/* Column Layout  */
+.content, .content-mobile {
+   text-align: center;
+}
+
+.columncontain {
+   margin: auto;
+   display: inline-block;
+}
+
+.column {
+   margin: auto;
+   display: inline-block;
+   padding: 50px;
+   vertical-align: top;
+   width: 320px;
+   text-align: left;
+}
+
+.column h2 {
+   margin-bottom: 10px;
+   color: #6f6e6e;
+   font-size: .8em;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+.divideline {
+   background-color: #ee9a37;
+   border-radius: 2px;
+   height: 4px;
+   width: 40px;
+   margin: 0 auto 24px auto;
+}
