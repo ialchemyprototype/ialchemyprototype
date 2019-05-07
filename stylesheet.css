@@ -56,69 +56,6 @@ h4 {
    text-align: center;
 }
 
-/* Menu */
-.icon {
-   position: fixed;
-   margin-right: 40px;
-   right: 0px;
-   margin-top: 30px;
-   font-size: 23px;
-   color: black;
-   width: 30px;
-   height: 30px;
-   border-radius: 100%;
-   background-color: white;
-   text-align: center;
-   padding: 12px;
-   display: block;
-}
-
-.icon i {
-   line-height: 0;
-   text-align: center;
-   vertical-align: middle;
-   margin-bottom: 3px;
-}
-
-#menulist {
-   position: fixed;
-   margin-right: 40px;
-   margin-top: 100px;
-   border-radius: 30px;
-   background-color: white;
-   text-align: center;
-   width: 200px;
-   right: 0;
-   display: none;
-   padding: 20px 40px;
-}
-
-#menulist ul {
-   text-align: center;
-   padding: 0;
-}
-
-#menulist ul li {
-   display: inline-block;
-   width: 100%;
-   text-align: center;
-   font-size: 1.2em;
-   font-weight: 500;
-   padding: 0;
-   color: #606060;
-   line-height: 3em;
-   text-transform: uppercase;
-}
-
-#menulist span {
-   color: orange;
-   display: none;
-}
-
-#menulist a:hover li {
-   color: orange;
-}
-
 /* Landing Page CSS */
 .landing {
    width: 100vw;
@@ -128,7 +65,7 @@ h4 {
 }
 
 .logo {
-   margin: 12vh auto 10vh auto;
+   margin: 12vh auto 6vh auto;
    width: 100%;
    display: inline-block;
    right: 0;
@@ -136,10 +73,15 @@ h4 {
    text-align: center;
 }
 
+.content-mobile .logo img {
+
+}
+
 .logo img {
    margin: auto;
-   height: 30vh;
+   height: 38vh;
    display: inline-block;
+   max-width: 90%;
 }
 
 .landingparagraph {
@@ -202,12 +144,16 @@ h4 {
    text-align: right;
 }
 
-.right h1, .right h2, .right .button {
+.light h1, .light h2, .light .button {
    color: white;
    border-color: white;
 }
 
-.right .button:hover {
+.light .button {
+   background-color: grey;
+}
+
+.light .button:hover {
    background-color: white;
    color: grey;
    border-color: white;
@@ -264,6 +210,31 @@ h4 {
    display: block;
 }
 
+/* Button Style */
+.button {
+   display: inline-block;
+   padding: 12px 30px 10px 30px;
+   border: solid grey 2px;
+   color: grey;
+   margin-top: 10vh;
+}
+
+.button:hover {
+   background-color: grey;
+   color: white;
+}
+
+.button p {
+   line-height: 0;
+   color: inherit;
+   letter-spacing: .15em;
+   text-transform: uppercase;
+}
+
+.content .button {
+   background-color: none;
+}
+
 /* Footer Style */
 .questions {
    padding: 50px;
@@ -282,10 +253,15 @@ h4 {
    border-color: white;
 }
 
+.questions h1 {
+   margin-bottom: 30px;
+}
+
 .bottmenu {
    height: 100px;
    background-color: #222222;
    padding-top: 37px;
+   text-align: left;
 }
 
 ul {
@@ -301,9 +277,14 @@ ul {
    margin-right: 50px;
 }
 
+.right h1, .right h2, .right .button {
+   color: white;
+   border-color: white;
+}
+
 /* Mobile Style Changes */
 .content-mobile .project {
-   height: 100vh;
+   height: 80vh;
 }
 
 .content-mobile p {

@@ -1,0 +1,152 @@
+body {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   scroll-behavior: smooth;
+}
+
+div {
+   box-sizing: border-box;
+}
+
+.content, .content-mobile {
+   z-index: 0;
+}
+
+/* General things */
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #F6931D;
+}
+
+p {
+   font-size: .9em;
+   line-height: 1.9em;
+   color: #404042;
+   font-weight: 300;
+}
+
+h1 {
+   font-size: 4em;
+   color: #525252;
+   line-height: 1.2em;
+   margin: 0;
+}
+
+h2 {
+   font-size: 1.7em;
+   color: #7B7B7B;
+   line-height: 1.2em;
+   margin: 0;
+}
+
+h3 {
+   color: white;
+   text-align: center;
+   font-size: 1.3em;
+   text-transform: uppercase;
+   letter-spacing: .15em;
+   font-weight: 300;
+   line-height: 0;
+   margin: 0;
+}
+
+h4 {
+   color: #525252;
+   font-size: 2em;
+   text-align: center;
+}
+
+/* Menu */
+.icon {
+   position: fixed;
+   margin-right: 40px;
+   right: 0px;
+   margin-top: 30px;
+   font-size: 23px;
+   color: black;
+   width: 30px;
+   height: 30px;
+   border-radius: 1px;
+   background-color: white;
+   text-align: center;
+   padding: 12px;
+   display: block;
+   z-index: 1;
+}
+
+.icon i {
+   line-height: 0;
+   text-align: center;
+   vertical-align: middle;
+   margin-bottom: 3px;
+}
+
+#menulist {
+   position: fixed;
+   margin-right: 40px;
+   margin-top: 100px;
+   border-radius: 1px;
+   background-color: white;
+   text-align: center;
+   width: 200px;
+   right: 0;
+   display: none;
+   padding: 20px 40px;
+   z-index: 1;
+}
+
+#menulist ul {
+   text-align: center;
+   padding: 0;
+}
+
+#menulist ul li {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   font-size: 1.2em;
+   font-weight: 500;
+   padding: 0;
+   color: #606060;
+   text-transform: uppercase;
+   margin: 12px 0;
+}
+
+#menulist span {
+   color: orange;
+   display: none;
+}
+
+#menulist a:hover li {
+   color: orange;
+}
+
+/* Header Style */
+.logo {
+   margin: 6vh auto 0 auto;
+   width: 100%;
+   display: inline-block;
+   right: 0;
+   left: 0;
+   text-align: center;
+}
+
+.content-mobile .logo {
+   margin-top: 17vh;
+}
+
+.logo img {
+   margin: auto;
+   height: 20vh;
+   display: inline-block;
+}
+
+.header h1 {
+   margin: 80px 0 40px 0;
+   text-align: center;
+   display: block;
+}
