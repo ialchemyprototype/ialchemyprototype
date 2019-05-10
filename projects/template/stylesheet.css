@@ -65,105 +65,104 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background-image: url("../assets/machine.png");
-   background-size: cover;
-   background-position: middle center;
    padding: 0;
    overflow: auto;
+   margin-bottom: 60px;
 }
 
 /* Column Style */
+.columncontain {
+   margin-bottom: 40px;
+}
+
 .column {
-   width: 28%;
-   margin: 10px 10px;
+   width: 50%;
+   margin: 0;
    display: inline-block;
    min-width: 250px;
-}
-
-/* Project Style */
-.projectflow {
-   width: 100%;
-   max-width: 1000px;
-   display: block;
-   margin: 10px auto 10px auto;
-   text-align: center;
-}
-
-.project {
-   width: 100%;
-   height: 30vh;
-   display: inline-block;
-   background-color: white;
-   background-size: cover;
-   background-position: center;
+   overflow: hidden;
    vertical-align: top;
-   position: relative;
-   margin: 10px;
 }
 
-.project .fader {
-   background-color: black;
-   opacity: .1;
+.column img {
    width: 100%;
+   margin: auto;
+   display: inline-block;
+}
+
+.textcolumn {
+   padding: 40px 15% 40px 40px;
+}
+
+.textcolumn span {
+   color: grey;
+   font-weight: 500;
+}
+
+.content-mobile .imgcolumn {
+   height: auto;
+}
+
+/* Project Images Style */
+.images {
+   text-align: center;
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto 20px auto;
+}
+
+.images img {
+   width: 100%;
+   display: inline-block;
+   max-width: 500px;
+   margin: 20px;
+}
+
+/* Project Navigation arrows Style */
+.projnavigation {
+   padding: 20px;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+.navbox {
+   height: 10vh;
+   width: 30vw;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.navbox img {
    height: 100%;
+   display: inline-block;
 }
 
-.project:hover .fader {
-   opacity: .4;
-   transition: 200ms;
-}
-
-.content-mobile .project .fader {
-   opacity: .3;
-}
-
-#skis {
-   background-image: url("../assets/Hi5Skiis.png");
-}
-
-#tent {
-   background-image: url("../assets/expeditiontent.png");
-}
-
-#duffle {
-   background-image: url("../assets/duffle.png");
-}
-
-#camo {
-   background-image: url("../assets/camo.jpg");
-   background-size: cover;
-}
-
-.projecttext {
-   margin: 10%;
-   position: absolute;
-   top: 0;
+.navprev {
    left: 0;
-   color: white;
-   display: none;
-   text-align: left;
+   margin-left: 0;
 }
 
-.project:hover .projecttext {
+.navall {
+   margin: auto;
+}
+
+.navnext {
+   margin: 0 0 0 auto;
+}
+
+.navtext {
    display: inline-block;
+   vertical-align: top;
 }
 
-.content-mobile .projecttext {
-   display: inline-block;
+.navtext p {
+   margin: 0;
+   vertical-align: middle;
+   font-size: 1.2em;
+   font-weight: 500;
 }
 
-.projecttext h1, .projecttext h2 {
-   color: white;
-}
-
-.projecttext h1 {
-   font-size: 1.8em;
-}
-
-.projecttext h2 {
-   font-size: 1em;
-   font-weight: 300;
-}
 
 /* Footer Style */
 .questions {
@@ -234,7 +233,7 @@ ul {
 
 
 /* Mobile version Style updates */
-.content-mobile .projectflow {
+.content-mobile {
    margin-top: 20px;
 }
 
@@ -242,10 +241,4 @@ ul {
    width: 100vw;
    margin: 0;
    padding: 0 20px;
-}
-
-.content-mobile .project {
-   width: 100%;
-   margin: 0 0 20px 0;
-   height: 45vh;
 }

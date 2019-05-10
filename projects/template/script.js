@@ -10,11 +10,11 @@ function myFunction() {
 function responsive() {
 	var wi = $(window).width();
 
-	if (wi <= 799){
+	if (wi <= 999){
 		$(".menu").removeClass("menu").addClass("menu-mobile");
 		$(".content").removeClass("content").addClass("content-mobile");
 		}
-	else if (wi >= 800){
+	else if (wi >= 1000){
 		$(".menu-mobile").removeClass("menu-mobile").addClass("menu");
 		$(".content-mobile").removeClass("content-mobile").addClass("content");
 		}
