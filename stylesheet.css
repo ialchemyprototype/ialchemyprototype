@@ -125,6 +125,7 @@ h4 {
    border: solid grey 2px;
    color: grey;
    margin-top: 10vh;
+   background-color: #FFFFFF;
 }
 
 .button:hover {
