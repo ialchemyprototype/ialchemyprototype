@@ -73,10 +73,6 @@ h4 {
    text-align: center;
 }
 
-.content-mobile .logo img {
-
-}
-
 .logo img {
    margin: auto;
    height: 38vh;
@@ -119,45 +115,25 @@ h4 {
    padding: 10vh 10vw;
 }
 
-.button {
+.light .textbox {
+   background: none;
+   box-shadow: none;
+}
+
+.textbox {
    display: inline-block;
-   padding: 12px 30px 10px 30px;
-   border: solid grey 2px;
-   color: grey;
-   margin-top: 10vh;
-   background-color: #FFFFFF;
+   background-color: rgba(255, 255, 255, .5);
+   margin-right: auto;
+   box-shadow: 0 0 20px 20px rgba(255, 255, 255, .5);
 }
 
-.button:hover {
-   background-color: grey;
-   color: white;
-}
-
-.button p {
-   line-height: 0;
-   color: inherit;
-   letter-spacing: .15em;
-   text-transform: uppercase;
+.project .button {
+   display: block;
 }
 
 .right {
    right: 0;
    text-align: right;
-}
-
-.light h1, .light h2, .light .button {
-   color: white;
-   border-color: white;
-}
-
-.light .button {
-   background-color: grey;
-}
-
-.light .button:hover {
-   background-color: white;
-   color: grey;
-   border-color: white;
 }
 
 #skis {
@@ -176,7 +152,7 @@ h4 {
 #duffle {
    background-image: url("assets/duffle.png");
    background-size: contain;
-   background-position: center right;
+   background-position: bottom right;
    background-repeat: no-repeat;
 }
 
@@ -211,78 +187,6 @@ h4 {
    display: block;
 }
 
-/* Button Style */
-.button {
-   display: inline-block;
-   padding: 12px 30px 10px 30px;
-   border: solid grey 2px;
-   color: grey;
-   margin-top: 10vh;
-}
-
-.button:hover {
-   background-color: grey;
-   color: white;
-}
-
-.button p {
-   line-height: 0;
-   color: inherit;
-   letter-spacing: .15em;
-   text-transform: uppercase;
-}
-
-.content .button {
-   background-color: none;
-}
-
-/* Footer Style */
-.questions {
-   padding: 50px;
-   width: 100%;
-   background-image: url("assets/seemore.png");
-   background-size: cover;
-   text-align: center;
-}
-
-.questions .button {
-   margin: 30px 15px;
-}
-
-.questions h1, .question .button p {
-   color: white;
-   border-color: white;
-}
-
-.questions h1 {
-   margin-bottom: 30px;
-}
-
-.bottmenu {
-   height: 100px;
-   background-color: #222222;
-   padding-top: 37px;
-   text-align: left;
-}
-
-ul {
-   color: white;
-   display: inline;
-   margin:0;
-}
-
-.bottmenu li {
-   display: inline;
-   color: #838383;
-   font-size: .7em;
-   margin-right: 50px;
-}
-
-.right h1, .right h2, .right .button {
-   color: white;
-   border-color: white;
-}
-
 /* Mobile Style Changes */
 .content-mobile .project {
    height: 80vh;
@@ -293,6 +197,14 @@ ul {
    line-height: 1.5em;
 }
 
+.content-mobile h1 {
+   font-size: 2.5em;
+}
+
 .content-mobile .partners img {
    width: 100%;
+}
+
+.content-mobile .logo img {
+   height: 20vh;
 }

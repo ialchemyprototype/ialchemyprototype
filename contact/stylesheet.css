@@ -69,27 +69,34 @@ h4 {
 /* Column Layout  */
 .content, .content-mobile {
    text-align: center;
+   overflow: hidden;
 }
 
 .columncontain {
    margin: auto;
    display: inline-block;
+   width: 100%;
 }
 
 .column {
    margin: auto;
    display: inline-block;
-   padding: 50px;
+   padding: 10px 50px;
    vertical-align: top;
-   width: 320px;
    text-align: left;
+   box-sizing: border-box;
+}
+
+.content-mobile .column {
+   padding: 10px 3%;
+   width: 100%;
 }
 
 .column h2 {
-   margin-bottom: 10px;
-   color: #6f6e6e;
-   font-size: .8em;
-   font-weight: 500;
+   margin: 30px 0 10px 0;
+   color: #595959;
+   font-size: 1.3em;
+   font-weight: 700;
    text-transform: uppercase;
 }
 
@@ -103,74 +110,13 @@ h4 {
 
 /* Contact Form style */
 .contactform {
-   padding: 0 10vw;
-   max-width: 700px;
-   margin: 50px auto;
-}
-
-//* Footer Style */
-.questions {
-   padding: 50px;
+   max-width: 500px;
    width: 100%;
-   background-image: url("../assets/seemore.png");
-   background-size: cover;
-   text-align: center;
-}
-
-.button {
+   margin: auto;
+   box-sizing: border-box;
    display: inline-block;
-   padding: 12px 30px 10px 30px;
-   border: solid grey 2px;
-   color: grey;
-   margin-top: 10vh;
 }
 
-.button:hover {
-   background-color: grey;
-   color: white;
-}
-
-.button p {
-   line-height: 0;
-   color: inherit;
-   letter-spacing: .15em;
-   text-transform: uppercase;
-}
-
-.questions .button {
-   margin: 30px 15px;
-}
-
-.questions h1, .question .button p {
-   color: white;
-   border-color: white;
-}
-
-.questions h1 {
-   margin-bottom: 30px;
-}
-
-.bottmenu {
-   height: 100px;
-   background-color: #222222;
-   padding-top: 37px;
-   text-align: left;
-}
-
-ul {
-   color: white;
-   display: inline;
-   margin:0;
-}
-
-.bottmenu li {
-   display: inline;
-   color: #838383;
-   font-size: .7em;
-   margin-right: 50px;
-}
-
-.right h1, .right h2, .right .button {
-   color: white;
-   border-color: white;
+.content-mobile .contactform {
+   max-width: none;
 }

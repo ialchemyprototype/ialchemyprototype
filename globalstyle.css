@@ -60,6 +60,12 @@ h4 {
    text-align: center;
 }
 
+/* Light Modifier */
+.light h1, .light h2, .light .button {
+   color: white;
+   border-color: white;
+}
+
 /* Menu */
 .icon {
    position: fixed;
@@ -79,7 +85,7 @@ h4 {
 }
 
 .icon i {
-   line-height: 0;
+   line-height: 1.3;
    text-align: center;
    vertical-align: middle;
    margin-bottom: 3px;
@@ -149,4 +155,90 @@ h4 {
    margin: 80px 0 40px 0;
    text-align: center;
    display: block;
+}
+
+/* Button Style */
+.button {
+   display: inline-block;
+   margin-top: 10vh;
+}
+
+.button p {
+   display: inline-block;
+   padding: 12px 30px 10px 30px;
+   border: solid grey 2px;
+   color: grey;
+   color: inherit;
+   letter-spacing: .15em;
+   text-transform: uppercase;
+   background-color: white;
+}
+
+.button p:hover {
+   background-color: grey;
+   color: white;
+}
+
+.content .button {
+   background-color: none;
+}
+
+.light h1, .light h2, .light .button p {
+   color: white;
+   border-color: white;
+}
+
+.light p {
+   background-color: grey;
+}
+
+.light .button p:hover {
+   background-color: white;
+   color: grey;
+   border-color: white;
+}
+
+/* Footer Style */
+.questions {
+   padding: 50px;
+   width: 100%;
+   background-image: url("assets/seemore.png");
+   background-size: cover;
+   text-align: center;
+}
+
+.questions .button {
+   margin: 30px 15px;
+}
+
+.questions h1, .questions .button p {
+   color: white;
+   border-color: white;
+   background: none;
+}
+
+.questions h1 {
+   margin-bottom: 30px;
+}
+
+.bottmenu {
+   background-color: #222222;
+   padding: 37px 0 7px 0;
+   text-align: left;
+   overflow: hidden;
+}
+
+ul {
+   color: white;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+
+.bottmenu li {
+   display: inline-block;
+   color: #838383;
+   font-size: .7em;
+   margin-left: 50px;
+   margin-bottom: 30px;
 }
