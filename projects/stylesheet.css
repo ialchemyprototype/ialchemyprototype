@@ -90,7 +90,7 @@ h4 {
 }
 
 .project {
-   width: 100%;
+   width: 28%;
    height: 30vh;
    display: inline-block;
    background-color: white;
@@ -99,6 +99,7 @@ h4 {
    vertical-align: top;
    position: relative;
    margin: 10px;
+   background-repeat: no-repeat;
 }
 
 .project .fader {
@@ -117,21 +118,64 @@ h4 {
    opacity: .3;
 }
 
-#skis {
-   background-image: url("../assets/Hi5Skiis.png");
+#hi5 {
+   background-image: url("hi5/hero/hero.jpg");
+   background-size: contain;
 }
 
-#tent {
-   background-image: url("../assets/expeditiontent.png");
+#alchemist {
+   background-image: url("alchemist/hero/hero.jpg");
+   background-size: contain;
 }
 
-#duffle {
-   background-image: url("../assets/duffle.png");
+#lightwire {
+   background-image: url("lightwire/hero/hero.jpg");
+   background-size: cover;
 }
 
-#camo {
+#lodestar {
+   background-image: url("lodestar/hero/hero.jpg");
+   background-size: cover;
+}
+
+#sorcerer {
+   background-image: url("sorcerer/hero/hero.jpg");
+   background-size: cover;
+}
+
+#rei {
+   background-image: url("rei/hero/hero.jpg");
+   background-size: contain;
+}
+
+#sealline {
+   background-image: url("sealline/hero/hero.jpg");
+   background-size: contain;
+}
+
+#typhoon {
+   background-image: url("typhoon/hero/hero.jpg");
+   background-size: contain;
+}
+
+#katabatic {
+   background-image: url("katabatic/hero/hero.jpg");
+   background-size: cover;
+}
+
+#redlithium {
+   background-image: url("redlithium/hero/hero.jpg");
+   background-size: cover;
+}
+
+#industry {
    background-image: url("../assets/camo.jpg");
    background-size: cover;
+}
+
+#firstascent {
+   background-image: url("firstascent/hero/hero.jpg");
+   background-size: contain;
 }
 
 .projecttext {
