@@ -37,6 +37,7 @@ h2 {
    color: #7B7B7B;
    line-height: 1.2em;
    margin: 0;
+   font-weight: 300;
 }
 
 h3 {
@@ -86,6 +87,7 @@ h4 {
    margin: auto;
    padding: 0 30px;
    text-align: center;
+   text-transform: uppercase;
 }
 
 .landingparagraph p {
@@ -116,8 +118,8 @@ h4 {
 }
 
 .light .textbox {
-   background: none;
-   box-shadow: none;
+   background-color: rgba(0, 0, 0, .3);
+   box-shadow: 0 0 50px 50px rgba(0, 0, 0, .3);
 }
 
 .textbox {
