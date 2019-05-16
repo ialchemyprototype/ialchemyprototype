@@ -102,3 +102,13 @@ h4 {
    line-height: 1.9em;
    color: #525252;
 }
+
+.content-mobile .column {
+   padding: 10%;
+   margin-top: 40px;
+   text-align: center;
+}
+
+.content-mobile .column img {
+   margin-bottom: 20px;
+}
