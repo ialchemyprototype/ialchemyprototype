@@ -29,7 +29,8 @@ p {
 h1 {
    font-size: 3em;
    color: #525252;
-   line-height: 1em;
+   line-height: 1.2em;
+   margin: 0;
 }
 
 h2 {
@@ -65,9 +66,9 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background-image: url("../assets/machine.png");
+   background-image: url("../assets/header2.jpg");
    background-size: cover;
-   background-position: middle center;
+   background-position: bottom;
    padding: 0;
    overflow: auto;
 }
@@ -118,55 +119,7 @@ h4 {
    opacity: .3;
 }
 
-#hi5 {
-   background-image: url("hi5/hero/hero.jpg");
-   background-size: contain;
-}
-
-#alchemist {
-   background-image: url("alchemist/hero/hero.jpg");
-   background-size: contain;
-}
-
-#lightwire {
-   background-image: url("lightwire/hero/hero.jpg");
-   background-size: cover;
-}
-
-#lodestar {
-   background-image: url("lodestar/hero/hero.jpg");
-   background-size: cover;
-}
-
-#sorcerer {
-   background-image: url("sorcerer/hero/hero.jpg");
-   background-size: cover;
-}
-
-#rei {
-   background-image: url("rei/hero/hero.jpg");
-   background-size: contain;
-}
-
-#sealline {
-   background-image: url("sealline/hero/hero.jpg");
-   background-size: contain;
-}
-
-#typhoon {
-   background-image: url("typhoon/hero/hero.jpg");
-   background-size: contain;
-}
-
-#katabatic {
-   background-image: url("katabatic/hero/hero.jpg");
-   background-size: cover;
-}
-
-#redlithium {
-   background-image: url("redlithium/hero/hero.jpg");
-   background-size: cover;
-}
+/* Projects Finalized */
 
 #industry {
    background-image: url("../assets/camo.jpg");
@@ -175,6 +128,66 @@ h4 {
 
 #firstascent {
    background-image: url("firstascent/hero/hero.jpg");
+   background-size: contain;
+}
+
+#eddiebauer {
+   background-image: url("eddiebauer/hero/hero.jpg");
+   background-size: cover;
+}
+
+#ebtents {
+   background-image: url("ebtents/hero/hero.jpg");
+   background-size: cover;
+}
+
+#or {
+   background-image: url("or/hero/hero.jpg");
+   background-size: cover;
+}
+
+#vertx {
+   background-image: url("vertx/hero/hero.jpg");
+   background-size: contain;
+}
+
+#sportiva {
+   background-image: url("sportiva/hero/hero.jpg");
+   background-size: contain;
+}
+
+#patagonia {
+   background-image: url("patagonia/hero/hero.jpg");
+   background-size: contain;
+}
+
+#sealline {
+   background-image: url("sealline/hero/hero.jpg");
+   background-size: contain;
+}
+
+#sage {
+   background-image: url("sage/hero/hero.jpg");
+   background-size: contain;
+}
+
+#rei {
+   background-image: url("rei/hero/hero.jpg");
+   background-size: contain;
+}
+
+#milwaukee {
+   background-image: url("milwaukee/hero/hero.jpg");
+   background-size: cover;
+}
+
+#underarmour {
+   background-image: url("underarmour/hero/hero.jpg");
+   background-size: cover;
+}
+
+#element {
+   background-image: url("element/hero/hero.jpg");
    background-size: contain;
 }
 
