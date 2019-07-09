@@ -83,7 +83,7 @@ h4 {
 
 .landingparagraph {
    width: 100%;
-   max-width: 600px;
+   max-width: 620px;
    margin: auto;
    padding: 0 30px;
    text-align: center;
@@ -138,20 +138,20 @@ h4 {
    text-align: right;
 }
 
-#skis {
+#firstascent {
    background-image: url("assets/firstascenthero.png");
    background-size: contain;
    background-position: bottom right;
    background-repeat: no-repeat;
 }
 
-#tent {
+#ebtents {
    background-image: url("assets/expeditiontent.png");
    background-size: cover;
    background-position: bottom;
 }
 
-#duffle {
+#milwaukee {
    background-image: url("assets/milwaukee.png");
    background-size: contain;
    background-position: bottom right;
