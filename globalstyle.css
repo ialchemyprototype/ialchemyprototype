@@ -31,10 +31,40 @@ p {
 
 h1 {
    font-family: 'Roboto Slab', sans-serif;
-   font-size: 4em;
+   font-size: 5em;
    color: #525252;
    line-height: 1.2em;
    margin: 0;
+}
+
+/* Jquery text testing */
+.italic {
+   font-style: italic;
+}
+
+.roboto {
+   font-family: 'Roboto', sans-serif;
+}
+
+.slab {
+   font-family: 'Roboto Slab', serif;
+}
+
+.chenga {
+   font-family: 'Changa One', cursive;
+   font-weight: 500;
+}
+
+.crimson {
+   font-family: 'Crimson Text', serif;
+}
+
+.encode {
+   font-family: 'Encode Sans', sans-serif;
+}
+
+.open {
+   font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -136,7 +166,7 @@ h4 {
 
 /* Header Style */
 .logo {
-   margin: 6vh auto 0 auto;
+   margin: 3vh 0 0 0;
    width: 100%;
    display: inline-block;
    right: 0;
@@ -149,8 +179,8 @@ h4 {
 }
 
 .logo img {
-   margin: auto;
-   height: 20vh;
+   margin: 0;
+   height: 10vh;
    display: inline-block;
 }
 

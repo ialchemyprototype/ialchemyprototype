@@ -20,16 +20,35 @@ function responsive() {
 		}
 };
 
-function menu() {
-	$("#menuButt").click(function() {
-		$("#menu-mobile").slideToggle( 'slow');
-	})
+function typetoggle() {
+   $("h1").click(function() {
+      if ($(this).hasClass( "roboto" )) {
+         $("h1").removeClass("roboto").addClass("slab");
+      } else if ($(this).hasClass( "slab" )){
+         $("h1").removeClass("slab").addClass("chenga");
+      } else if ($(this).hasClass( "chenga" )){
+         $("h1").removeClass("chenga").addClass("crimson");
+      } else if ($(this).hasClass( "crimson" )){
+         $("h1").removeClass("crimson").addClass("encode");
+      } else if ($(this).hasClass( "encode" )){
+         $("h1").removeClass("encode").addClass("open");
+      } else {
+         $("h1").removeClass().addClass("roboto");
+      }
+   })
 };
+
+function italicstoggle() {
+   $("h2").click(function() {
+      $(this).toggleClass("italic");
+   })
+}
 
 $(document).ready(function() {
 	responsive();
-	menu();
 	$(window).resize(responsive);
+   typetoggle();
+   italicstoggle();
 });
 
 $(document).ready(function(){
