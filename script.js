@@ -1,3 +1,5 @@
+// This is a function called on click by the menu button in the html. It toggles
+// the menu list between display block and none
 function myFunction() {
    var x = document.getElementById("menulist");
    if (x.style.display === "block") {
@@ -7,6 +9,7 @@ function myFunction() {
    }
 };
 
+// This makes the page responsive at 1000 pixl width it changes to mobile
 function responsive() {
 	var wi = $(window).width();
 
@@ -20,6 +23,8 @@ function responsive() {
 		}
 };
 
+// This toggles through a set of typefaces for all h1 tags on
+// the page when one is clicked
 function typetoggle() {
    $("h1").click(function() {
       if ($(this).hasClass( "roboto" )) {
@@ -38,6 +43,7 @@ function typetoggle() {
    })
 };
 
+// This toggles any h2 tags to itallics when clicked
 function italicstoggle() {
    $("h2").click(function() {
       $(this).toggleClass("italic");
@@ -51,6 +57,7 @@ $(document).ready(function() {
    italicstoggle();
 });
 
+// This controlls the inpage scroll link arrow
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
