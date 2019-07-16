@@ -190,6 +190,22 @@ h4 {
    background-size: contain;
 }
 
+#seemore {
+   border: gray 2px solid;
+}
+
+#seemore .projecttext {
+   display: inline-block;
+   margin: 22% auto 0 auto;
+   text-align: center;
+   width: 100%;
+}
+
+#seemore .projecttext h1 {
+   color: gray;
+   text-align: center;
+}
+
 .projecttext {
    margin: 10%;
    position: absolute;
@@ -214,6 +230,7 @@ h4 {
 
 .projecttext h1 {
    font-size: 1.8em;
+   text-align: left;
 }
 
 .projecttext h2 {
