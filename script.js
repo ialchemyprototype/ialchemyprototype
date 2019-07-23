@@ -37,6 +37,8 @@ function typetoggle() {
          $("h1").removeClass("crimson").addClass("encode");
       } else if ($(this).hasClass( "encode" )){
          $("h1").removeClass("encode").addClass("open");
+      } else if ($(this).hasClass( "open" )){
+         $("h1").removeClass("open").addClass("brother");
       } else {
          $("h1").removeClass().addClass("roboto");
       }
