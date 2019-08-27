@@ -47,16 +47,15 @@ h1 {
 }
 
 .roboto {
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Libre Baskerville', serif;
 }
 
 .slab {
-   font-family: 'Roboto Slab', serif;
+   font-family: 'Halant', serif;
 }
 
 .chenga {
-   font-family: 'Changa One', cursive;
-   font-weight: 500;
+   font-family: 'Source Serif Pro', serif;
 }
 
 .crimson {
@@ -64,7 +63,7 @@ h1 {
 }
 
 .encode {
-   font-family: 'Encode Sans', sans-serif;
+   font-family: 'poynter-oldstyle-display', serif;
 }
 
 .open {
