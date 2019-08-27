@@ -21,25 +21,25 @@ a:hover {
 p {
    font-size: .9em;
    line-height: 1.9em;
-   color: #404042;
+   color: white;;
    font-weight: 300;
 }
 
 h1 {
-   color: #525252;
+   color: white;;
    line-height: 1.2em;
    margin: 0;
 }
 
 h2 {
    font-size: 1.7em;
-   color: #525252;
+   color: white;;
    line-height: 1.3em;
    margin: 0;
 }
 
 h3 {
-   color: #787878;
+   color: white;;
    text-align: center;
    font-size: 1.5em;
    font-weight: 500;
@@ -50,7 +50,7 @@ h3 {
 }
 
 h4 {
-   color: #525252;
+   color: white;;
    font-size: 2em;
    text-align: center;
 }
@@ -85,7 +85,6 @@ h4 {
 
 .column h2 {
    margin-bottom: 24px;
-   color: #838383;
    font-size: 2.2em;
 }
 

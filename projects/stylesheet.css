@@ -22,19 +22,19 @@ a:hover {
 p {
    font-size: .9em;
    line-height: 1.9em;
-   color: #404042;
+   color: white;;
    font-weight: 300;
 }
 
 h1 {
-   color: #525252;
+   color: white;;
    line-height: 1.2em;
    margin: 0;
 }
 
 h2 {
    font-size: 1.7em;
-   color: #7B7B7B;
+   color: white;;
    line-height: 1.2em;
    margin: 0;
 }
@@ -51,7 +51,7 @@ h3 {
 }
 
 h4 {
-   color: #525252;
+   color: white;;
    font-size: 2em;
    text-align: center;
 }
