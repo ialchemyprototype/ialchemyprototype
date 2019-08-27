@@ -39,6 +39,8 @@ function typetoggle() {
          $("h1").removeClass("encode").addClass("open");
       } else if ($(this).hasClass( "open" )){
          $("h1").removeClass("open").addClass("brother");
+      } else if ($(this).hasClass( "brother" )){
+         $("h1").removeClass("brother").addClass("roboto");
       } else {
          $("h1").removeClass().addClass("roboto");
       }
