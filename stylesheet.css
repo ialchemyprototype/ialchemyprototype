@@ -2,6 +2,7 @@ body {
    margin: 0;
    font-family: 'Roboto', sans-serif;
    scroll-behavior: smooth;
+   background-color: white;
 }
 
 div {
@@ -26,7 +27,6 @@ p {
 }
 
 h1 {
-   font-family: 'Roboto Slab', sans-serif;
    font-size: 3em;
    color: #525252;
    line-height: 1.2em;
