@@ -22,13 +22,13 @@ a:hover {
 p {
    font-size: .9em;
    line-height: 1.9em;
-   color: white;;
+   color: #525252;;
    font-weight: 100;
 }
 
 h1 {
    font-size: 3em;
-   color: white;;
+   color: #525252;
    line-height: 1.2em;
    margin: 0;
    font-weight: 700;
@@ -36,10 +36,11 @@ h1 {
 
 h2 {
    font-size: 1.7em;
-   color: white;;
+   color: #525252;
    line-height: 1.2em;
    margin: 0;
    font-weight: 300;
+   font-style: italic;
 }
 
 h3 {

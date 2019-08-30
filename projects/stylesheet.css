@@ -3,6 +3,7 @@ body {
    font-family: 'Roboto', sans-serif;
    scroll-behavior: smooth;
    z-index: -1;
+   background-color: white;
 }
 
 div {
@@ -27,7 +28,6 @@ p {
 }
 
 h1 {
-   color: white;;
    line-height: 1.2em;
    margin: 0;
 }

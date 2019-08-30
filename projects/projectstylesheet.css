@@ -3,6 +3,7 @@ body {
    font-family: 'Roboto', sans-serif;
    scroll-behavior: smooth;
    z-index: -1;
+   background-color: white;
 }
 
 div {
@@ -22,20 +23,20 @@ a:hover {
 p {
    font-size: .9em;
    line-height: 1.9em;
-   color: white;;
+   color: #525252;
    font-weight: 300;
    margin-top: 20px;
 }
 
 h1 {
    font-size: 3em;
-   color: white;;
+   color: #525252;
    line-height: 1.3em;
 }
 
 h2 {
    font-size: 1.7em;
-   color: white;;
+   color: white;
    line-height: 1.2em;
    margin: 0;
 }
@@ -52,7 +53,7 @@ h3 {
 }
 
 h4 {
-   color: white;;
+   color: white;
    font-size: 2em;
    text-align: center;
 }
@@ -102,6 +103,7 @@ h4 {
 .textcolumn span {
    color: grey;
    font-weight: 500;
+   font-style: italic;
 }
 
 .content-mobile .imgcolumn {

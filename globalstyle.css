@@ -174,12 +174,12 @@ h4 {
 
 /* Header Style */
 .logo {
-   margin: 3vh 0 0 0;
+   margin: 3vh;
    width: 100%;
    display: inline-block;
    right: 0;
    left: 0;
-   text-align: center;
+   text-align: left;
 }
 
 .content-mobile .logo {
