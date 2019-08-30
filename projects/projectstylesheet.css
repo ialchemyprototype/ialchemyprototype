@@ -36,7 +36,8 @@ h1 {
 
 h2 {
    font-size: 1.7em;
-   color: white;
+   color: #a2a2a2;
+   font-style: italic;
    line-height: 1.2em;
    margin: 0;
 }
@@ -103,7 +104,6 @@ h4 {
 .textcolumn span {
    color: grey;
    font-weight: 500;
-   font-style: italic;
 }
 
 .content-mobile .imgcolumn {

@@ -174,7 +174,7 @@ h4 {
 
 /* Header Style */
 .logo {
-   margin: 3vh;
+   padding: 3vh;
    width: 100%;
    display: inline-block;
    right: 0;
