@@ -40,12 +40,12 @@ h2 {
 h3 {
    color: white;
    text-align: center;
-   font-size: 1.3em;
-   text-transform: uppercase;
-   letter-spacing: .15em;
-   font-weight: 300;
-   line-height: 0;
+   font-size: 1.5em;
+   font-weight: 500;
    margin: 0;
+   letter-spacing: 0;
+   text-transform: none;
+   line-height: normal;
 }
 
 h4 {
@@ -70,16 +70,16 @@ h4 {
 }
 
 .columncontain {
-   margin: auto;
+   margin: 10vh auto;
    display: inline-block;
 }
 
 .column {
    margin: auto;
    display: inline-block;
-   padding: 100px;
+   padding: 50px;
    vertical-align: top;
-   text-align: left;
+   max-width: 320px;
 }
 
 .column img {
@@ -92,6 +92,7 @@ h4 {
 
 .column h2 {
    margin-bottom: 24px;
+   font-size: 2em;
 }
 
 .column li {
@@ -109,4 +110,76 @@ h4 {
 
 .content-mobile .column img {
    margin-bottom: 20px;
+}
+
+.divideline {
+   background-color: #f6931c;
+   border-radius: 2px;
+   height: 4px;
+   width: 40px;
+   margin: 0 auto 24px auto;
+}
+
+/* Image Gallery Style */
+.gallery {
+   margin: auto;
+   display: inline-block;
+}
+
+.gallery img {
+   max-width: 500px;
+   display: inline-block;
+   margin: 2vw;
+   width: 96vw;
+}
+
+/* Story Text  */
+
+.story {
+   width: 100%;
+   padding: 7vh 0;
+   margin: 20vh 0;
+   background-color: white;
+}
+
+.story h1, .story h3, .story p {
+   color: black;
+   text-align: left;
+}
+
+.story h1 {
+   font-size: 2.2em;
+   line-height: 1.5em;
+}
+
+.story h3 {
+   font-style: italic;
+   margin-bottom: 2em;
+}
+
+.storyImgs {
+   max-width: 800px;
+   width: 35%;
+   display: inline-block;
+   margin-top: -20vh;
+   margin-bottom: -20vh;
+   vertical-align: top;
+}
+
+.storyImgs img {
+   width: 100%;
+   display: inline-block;
+   margin-bottom: 30px;
+}
+
+.storyText {
+   max-width: 500px;
+   display: inline-block;
+   padding-left: 50px;
+   vertical-align: middle;
+}
+
+.content-mobile .storyImgs {
+   width: 100%;
+   margin: 0;
 }
