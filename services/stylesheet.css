@@ -192,6 +192,8 @@ h4 {
    margin: 0;
 }
 
+/* Floating Text Blocks */
+
 .floatingText {
    max-width: 1000px;
    width: 100%;

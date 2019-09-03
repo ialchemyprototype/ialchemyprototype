@@ -64,55 +64,44 @@ h4 {
    overflow: auto;
 }
 
-/* Column Layout  */
-.content, .content-mobile {
+/* Section block for Content */
+.content {
    text-align: center;
 }
 
-.columncontain {
-   margin: auto;
-   display: inline-block;
+.section {
+   width: 100%;
+   display: block;
+   margin: 10vh 0;
 }
 
-.column {
-   margin: auto;
+/* Image block formatting */
+.imageBlock {
    display: inline-block;
-   padding: 50px;
+   width: 30vw;
+   max-width: 400px;
+   text-align: center;
    vertical-align: top;
-   max-width: 320px;
 }
 
-.column h2 {
-   margin-bottom: 24px;
-   font-size: 2.2em;
+.imageBlock img {
+   width: 100%;
 }
 
-.divideline {
-   background-color: #f6931c;
-   border-radius: 2px;
-   height: 4px;
-   width: 40px;
-   margin: 0 auto 24px auto;
-}
-
-/* Image Gallery Style */
-.gallery {
-   margin: auto;
-   display: inline-block;
-}
-
-.gallery img {
-   max-width: 500px;
-   display: inline-block;
-   margin: 2vw;
-   width: 96vw;
+.content-mobile .imageBlock {
+   width: 100%;
+   max-width: none;
+   padding: 60px;
 }
 
 /* Textblock Style */
 .textblock {
+   display: inline-block;
    max-width: 480px;
    width: 90%;
-   margin: 80px auto 120px auto;
+   margin: 0 60px;
+   text-align: center;
+   vertical-align: top;
 }
 
 .textblock h1 {
@@ -124,6 +113,7 @@ h4 {
    margin-top: 5px;
    margin-bottom: 40px;
    text-align: left;
+   font-style: italic;
 }
 
 .textblock p {
