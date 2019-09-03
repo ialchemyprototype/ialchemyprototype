@@ -62,6 +62,7 @@ h4 {
    background-position: bottom;
    padding: 0;
    overflow: auto;
+   margin-bottom: 20vh;
 }
 
 /* Column Layout  */
@@ -82,12 +83,19 @@ h4 {
    max-width: 320px;
 }
 
+.left .column h2 {
+   text-align: left;
+}
+
 .column img {
    margin-bottom: 100px;
    height: 138px;
+   text-align: left;
+   display: block;
 }
 .column ul {
-   padding: 0;
+   padding: 0 20px;
+   text-align: left;
 }
 
 .column h2 {
@@ -158,8 +166,8 @@ h4 {
 }
 
 .storyImgs {
-   max-width: 800px;
-   width: 35%;
+   max-width: 550px;
+   width: 35vw;
    display: inline-block;
    margin-top: -20vh;
    margin-bottom: -20vh;
@@ -182,4 +190,16 @@ h4 {
 .content-mobile .storyImgs {
    width: 100%;
    margin: 0;
+}
+
+.floatingText {
+   max-width: 1000px;
+   width: 100%;
+   margin: auto;
+   display: inline-block;
+}
+
+.floatingText h1 {
+   text-align: left;
+   font-size: 4em;
 }
