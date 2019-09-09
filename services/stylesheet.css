@@ -62,7 +62,7 @@ h4 {
    background-position: bottom;
    padding: 0;
    overflow: auto;
-   margin-bottom: 20vh;
+   margin-bottom: 15vh;
 }
 
 /* Column Layout  */
@@ -81,6 +81,55 @@ h4 {
    padding: 50px;
    vertical-align: top;
    max-width: 320px;
+   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+.firstfade {
+   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.secondfade {
+   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+.thirdfade {
+   -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+         -o-animation: fadein 6s; /* Opera < 12.1 */
+            animation: fadein 6s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+   0% { opacity: 0; }
+   80% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+   0% { opacity: 0; }
+   80% { opacity: 0; }
+   100% { opacity: 1; }
 }
 
 .left .column h2 {
@@ -101,6 +150,7 @@ h4 {
 .column h2 {
    margin-bottom: 24px;
    font-size: 2em;
+   font-style: italic;
 }
 
 .column li {
@@ -198,7 +248,7 @@ h4 {
    max-width: 1000px;
    width: 100%;
    margin: auto;
-   display: inline-block;
+   display: block;
 }
 
 .floatingText h1 {

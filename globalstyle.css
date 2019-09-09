@@ -175,12 +175,12 @@ h4 {
 
 /* Header Style */
 .logo {
-   padding: 3vh;
+   padding: 5vh;
    width: 100%;
    display: inline-block;
    right: 0;
    left: 0;
-   text-align: left;
+   text-align: center;
 }
 
 .content-mobile .logo {
@@ -190,14 +190,14 @@ h4 {
 
 .logo img {
    margin: 0;
-   height: 13vh;
+   height: 16vh;
    display: inline-block;
 }
 
 .header h1 {
    margin: 80px 0 40px 0;
    text-align: center;
-   display: block;
+   display: none;
 }
 
 /* Button Style */
