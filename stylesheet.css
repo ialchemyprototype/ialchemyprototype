@@ -17,6 +17,7 @@ a {
 
 a:hover {
    color: #F6931D;
+   text-decoration: none;
 }
 
 p {
@@ -46,12 +47,16 @@ h2 {
 h3 {
    color: white;
    text-align: center;
-   font-size: 1.3em;
+   font-size: 1.6em;
    text-transform: uppercase;
-   letter-spacing: .15em;
+   letter-spacing: .1em;
    font-weight: 300;
    line-height: 0;
    margin: 0;
+}
+
+.moreprojects:hover h3 {
+   color: #F6931D;
 }
 
 h4 {
@@ -169,11 +174,6 @@ h4 {
    padding-top: 100px;
    background-image: url("assets/seemore.png");
    vertical-align: middle;
-}
-
-.moreprojects a:hover {
-   text-decoration: underline;
-   color: white;
 }
 
 /* Partner section */
