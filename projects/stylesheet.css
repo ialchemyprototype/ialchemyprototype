@@ -191,7 +191,8 @@ h4 {
 }
 
 #seemore {
-   border: gray 2px solid;
+   background: rgb(85,85,85);
+   background: linear-gradient(140deg, rgba(85,85,85,1) 0%, rgba(113,113,113,1) 21%, rgba(150,150,150,1) 100%);
 }
 
 #seemore .projecttext {
@@ -202,7 +203,7 @@ h4 {
 }
 
 #seemore .projecttext h1 {
-   color: gray;
+   color: white;
    text-align: center;
 }
 
