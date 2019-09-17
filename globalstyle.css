@@ -43,39 +43,6 @@ h1 {
    font-size: 3em;
 }
 
-/* Jquery text testing */
-.italic {
-   font-style: italic;
-}
-
-.roboto {
-   font-family: 'Libre Baskerville', serif;
-}
-
-.slab {
-   font-family: 'Halant', serif;
-}
-
-.chenga {
-   font-family: 'Source Serif Pro', serif;
-}
-
-.crimson {
-   font-family: 'Crimson Text', serif;
-}
-
-.encode {
-   font-family: 'poynter-oldstyle-display', serif;
-}
-
-.open {
-   font-family: 'Open Sans', sans-serif;
-}
-
-.brother {
-   font-family: 'roboto', sans-serif;s
-}
-
 h2 {
    font-size: 1.7em;
    color: white;
@@ -190,7 +157,7 @@ h4 {
 
 .logo img {
    margin: 0;
-   height: 16vh;
+   height: 20vh;
    display: inline-block;
 }
 

@@ -28,10 +28,11 @@ p {
 }
 
 h1 {
-   line-height: 1em;
+   line-height: 1.2;
    text-align: center;
    width: 100%;
-   color: #222222;
+   color: white;
+   font-size: 4em;
 }
 
 h2 {
@@ -67,7 +68,7 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background: #e9e9e9;
+   background: #222222;
    padding: 0;
    overflow: hidden;
    height: 70vh;
@@ -75,12 +76,6 @@ h4 {
 
 .header h1 {
    display: inline-block;
-}
-
-.header span {
-   font-family: monospace;
-   font-weight: 200;
-   margin-bottom: 0;
 }
 
 /* Flow Style */

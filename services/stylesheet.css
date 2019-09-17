@@ -26,7 +26,7 @@ p {
 }
 
 h1 {
-   line-height: 1.2em;
+   line-height: 1.5em;
    margin: 0;
 }
 
@@ -81,11 +81,6 @@ h4 {
    padding: 50px;
    vertical-align: top;
    max-width: 320px;
-   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s;
 }
 
 .firstfade {
@@ -134,6 +129,7 @@ h4 {
 
 .left .column h2 {
    text-align: left;
+   font-size: 2em;
 }
 
 .column img {
@@ -142,6 +138,7 @@ h4 {
    text-align: left;
    display: block;
 }
+
 .column ul {
    padding: 0 20px;
    text-align: left;
@@ -149,8 +146,13 @@ h4 {
 
 .column h2 {
    margin-bottom: 24px;
-   font-size: 2em;
+   font-size: 3em;
    font-style: italic;
+   text-transform: uppercase;
+}
+
+.column p {
+   font-size: 1.2em;
 }
 
 .column li {
@@ -246,9 +248,9 @@ h4 {
 
 .floatingText h1 {
    text-align: left;
-   font-size: 4em;
+   font-size: 2.3em;
    padding-left: 25px;
-   max-width: 500px;
+   max-width: 600px;
    width: 100%;
    box-sizing: border-box;
 }
