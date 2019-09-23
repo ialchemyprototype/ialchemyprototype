@@ -58,9 +58,9 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background-image: url("../assets/machine.png");
+   background-image: url("../assets/machinecontact.png");
    background-size: cover;
-   background-position: bottom center;
+   background-position: center;
    padding: 0;
    overflow: auto;
    margin-bottom: 15vh;

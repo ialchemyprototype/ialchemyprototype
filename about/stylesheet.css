@@ -57,9 +57,9 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background-image: url("../assets/header1.jpg");
+   background-image: url("../assets/about6.jpg");
    background-size: cover;
-   background-position: middle center;
+   background-position: center;
    padding: 0;
    overflow: auto;
 }

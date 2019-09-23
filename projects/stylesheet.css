@@ -65,9 +65,9 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background-image: url("../assets/header2.jpg");
+   background-image: url("../assets/projects1.jpg");
    background-size: cover;
-   background-position: bottom;
+   background-position: center;
    padding: 0;
    overflow: auto;
 }
