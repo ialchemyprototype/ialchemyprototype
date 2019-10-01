@@ -57,11 +57,46 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background-image: url("../assets/about6.jpg");
+   background-image: url("../assets/aboutheader3.png");
    background-size: cover;
-   background-position: center;
+   background-position: top;
    padding: 0;
    overflow: auto;
+   height: 75vh;
+}
+
+/* Header image rotation script classes */
+
+.header1 {
+   background-image: url("../assets/aboutheader2.jpeg");
+}
+
+.header2 {
+   background-image: url("../assets/aboutheader3.png");
+}
+
+.header3 {
+   background-image: url("../assets/aboutheader4.jpg");
+}
+
+.header4 {
+   background-image: url("../assets/aboutheader6.jpg");
+}
+
+.header5 {
+   background-image: url("../assets/aboutheader7.jpg");
+}
+
+.header6 {
+   background-image: url("../assets/aboutheader8.jpg");
+}
+
+.header7 {
+   background-image: url("../assets/aboutheader9.jpg");
+}
+
+.header8 {
+   background-image: url("../assets/aboutheader10.jpg");
 }
 
 /* Section block for Content */
@@ -125,4 +160,18 @@ h4 {
 
 .textblock p {
    text-align: left;
+}
+
+/* Image Slider */
+.imageSlider {
+   height: 50vh;
+   overflow-x: scroll;
+   overflow-y: hidden;
+   white-space: nowrap;
+}
+
+.imageSlider img {
+   display: inline-block;
+   height: 100%;
+   margin-left: 20px;
 }
