@@ -34,18 +34,8 @@ function headertoggle() {
          $(".header").removeClass("header2").addClass("header3");
       } else if ($(this).hasClass( "header3" )){
          $(".header").removeClass("header3").addClass("header4");
-      } else if ($(this).hasClass( "header4" )){
-         $(".header").removeClass("header4").addClass("header5");
-      } else if ($(this).hasClass( "header5" )){
-         $(".header").removeClass("header5").addClass("header6");
-      } else if ($(this).hasClass( "header6" )){
-         $(".header").removeClass("header6").addClass("header7");
-      } else if ($(this).hasClass( "header7" )){
-         $(".header").removeClass("header7").addClass("header8");
-      } else if ($(this).hasClass( "header8" )){
-         $(".header").removeClass("header8").addClass("header1");
       } else {
-         $(".header").removeClass().addClass("header1");
+         $(".header").removeClass("header4").addClass("header1");
       }
    })
 };
