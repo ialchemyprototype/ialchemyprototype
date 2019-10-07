@@ -233,6 +233,10 @@ h4 {
    line-height: 1.6;
 }
 
+.content-mobile .questions h1 {
+   font-size: 2em;
+}
+
 .bottmenu {
    background-color: #222222;
    padding: 37px 0 7px 0;
