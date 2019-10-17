@@ -175,10 +175,7 @@ h4 {
    width: 100%;
    max-width: 470px;
    margin: 14px;
-}
-
-#landscapes img:last-child {
-   max-width: 600px;
+   vertical-align: top;
 }
 
 .content-mobile #landscapes img {
