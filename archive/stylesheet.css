@@ -28,11 +28,11 @@ p {
 }
 
 h1 {
-   line-height: 1.2;
+   line-height: 1.6;
    text-align: center;
    width: 100%;
    color: white;
-   font-size: 4em;
+   font-size: 2.5em;
 }
 
 h2 {
@@ -71,7 +71,7 @@ h4 {
    background: #222222;
    padding: 0;
    overflow: hidden;
-   height: 70vh;
+   height: 60vh;
 }
 
 .header h1 {
