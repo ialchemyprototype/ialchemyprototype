@@ -232,6 +232,32 @@ h4 {
    height: 70px;
 }
 
+.section .scrollArrow {
+   opacity: .9;
+           transition: opacity 1s 2s; /* vendorless fallback */
+        -o-transition: opacity 1s 2s; /* opera */
+       -ms-transition: opacity 1s 2s; /* IE 10 betas, not needed in final build. */
+      -moz-transition: opacity 1s 2s; /* Firefox */
+   -webkit-transition: opacity 1s 2s;
+}
+
+.section:hover .scrollArrow {
+   opacity: 0;
+           transition: opacity 1s 2s;/* vendorless fallback */
+        -o-transition: opacity 1s 2s; /* opera */
+       -ms-transition: opacity 1s 2s; /* IE 10 betas, not needed in final build. */
+      -moz-transition: opacity 1s 2s; /* Firefox */
+   -webkit-transition: opacity 1s 2s;
+}
+
+.scrollArrow {
+   transition-delay: 2s;
+}
+
+.scrollArrow {
+   transition-delay: 3s;
+}
+
 .imageSlider img {
    display: block;
    height: 80%;
