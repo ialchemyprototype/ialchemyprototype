@@ -132,8 +132,7 @@ h4 {
 }
 
 #menulist span {
-   color: orange;
-   display: none;
+   color: #F6931D;
 }
 
 #menulist a:hover li {
