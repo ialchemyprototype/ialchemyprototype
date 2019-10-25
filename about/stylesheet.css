@@ -65,30 +65,12 @@ h4 {
 /* Header Style */
 .header {
    width: 100%;
-   background-image: url("assets/header1.png");
+   background-image: url("assets/hero1.jpeg");
    background-size: cover;
    background-position: top;
    padding: 0;
    overflow: auto;
    height: 75vh;
-}
-
-/* Header image rotation script classes */
-
-.header1 {
-   background-image: url("assets/header1.png");
-}
-
-.header2 {
-   background-image: url("../assets/aboutheader6.jpg");
-}
-
-.header3 {
-   background-image: url("../assets/aboutheader9.jpg");
-}
-
-.header4 {
-   background-image: url("../assets/aboutheader10.jpg");
 }
 
 /* Section block for Content */

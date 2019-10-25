@@ -26,29 +26,7 @@ function menu() {
 	})
 }
 
-function headertoggle() {
-   $(".header").click(function() {
-      if ($(this).hasClass( "header1" )) {
-         $(".header").removeClass("header1").addClass("header2");
-      } else if ($(this).hasClass( "header2" )){
-         $(".header").removeClass("header2").addClass("header3");
-      } else if ($(this).hasClass( "header3" )){
-         $(".header").removeClass("header3").addClass("header4");
-      } else {
-         $(".header").removeClass("header4").addClass("header1");
-      }
-   })
-};
-
-function italicstoggle() {
-   $("h2").click(function() {
-      $(this).toggleClass("italic");
-   })
-}
-
 $(document).ready(function() {
 	responsive();
 	$(window).resize(responsive);
-   headertoggle();
-   italicstoggle();
 });
