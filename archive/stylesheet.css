@@ -76,6 +76,11 @@ h4 {
 
 .header h1 {
    display: inline-block;
+   margin-top: 0;
+}
+
+.content-mobile .header {
+   height: 90vh;
 }
 
 /* Flow Style */
